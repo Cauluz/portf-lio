@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifólio</title>
+    <link rel="icon" href="../PJ02/dever-de-casa.png" type="image/png">
+    <link rel="stylesheet" href="staly.css">
+</head>
+<body>
+
+    <header>
+
+        <h2>Dev e web</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="texto-home" id="home">
+            <h2>Bem vindo</h2>
+
+            <h1>sou <span>Claudia desenvolvedora web</span></h1>
+
+            <p>
+                Olá! tudo Bem?
+                meu nome é Claudia Luz, tenho 23 anos, sou estudante de programação, 
+                apaixonada por tecnologia. Em busca de se desenvolver cada vez mais.
+                Para conhecer mais sobre o meu trabalho clique em <span class="destaque">Portifólio</span>.
+
+            </p>
+        </div>
+
+        <img src="foto_portifólio1.png" alt="img01">
+    </section>
+
+    <section class="sobre" id="sobre">
+        
+        <img src="foto_portifólio2.png" alt="img2">
+
+        <div class="texto-sobre">
+
+            <h2>Olá! eu sou Claudia desenvolvedora web</h2>
+
+
+            <p>
+                Olá!
+                sou Claudia Luz, estou empolgada em compartilhar minha paixão pela 
+                programação web com você. Como uma programadora iniciante, estou determinada
+                a aprender e crescer na indústria de desenvolvimento web, contribuindo com minha 
+                criatividade e entusiasmo para projetos desafiadores.
+            </p>
+            <p>
+               <span class="destaque">Educação:</span>  
+                Possuo formação em programação em desenvolvimento web,
+                onde adquiri conhecimentos fundamentais.Projetos.Pessoais: Mesmo 
+                sendo iniciante, tenho trabalhado em projetos pessoais para aplicar
+                e aprimorar minhas habilidades em HTML, CSS e JavaScript, construindo 
+                pequenos sites e aplicativos web.
+            </p>
+            <p>
+               <span class="destaque">Habilidades em Desenvolvimento Web:</span>
+                HTML e CSS: Conhecimento básico em criação de estrutura e estilização 
+                de páginas web. JavaScript: Familiaridade com os conceitos básicos de 
+                programação JavaScript, incluindo manipulação de DOM e eventos.Comprometimento 
+                com o Aprendizado: Estou constantemente buscando aprender novas tecnologias e 
+                aprofundar meu conhecimentoem desenvolvimento web através de cursos online, 
+                tutoriais e projetos práticos.
+            </p>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        
+        <h2>Expertise em desenvolvimento web</h2>
+
+        <div class="box">
+            <ion-icon name="logo-html5"></ion-icon>
+            <h3>HTML</h3>
+        </div>
+
+        <div class="box">
+            <ion-icon name="logo-css3"></ion-icon>
+            <h3>CSS</h3>
+        </div>
+        
+        <div class="box">
+            <ion-icon name="logo-javascript"></ion-icon>
+            <h3>JAVASCRIPT</h3>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+
+        <h2>Meus Projetos Pessoais </h2>
+
+        <div class="projeto">
+            <h3>titulo</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, aliquid.
+            </p>
+            <img src="projetos1.jpg" alt="projeto1">
+            <a href="#">Ver projeto</a>
+        </div>
+        
+        <div class="projeto">
+            <h3>titulo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, consequuntur.
+            </p>
+            <img src="projetos2.png" alt="projeto2">
+            <a href="#">Ver projeto</a>
+        </div>
+        
+        <div class="projeto">
+            <h3>titulo</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, hic.
+            </p>
+            <img src="projeto3.jpg" alt="projeto3">
+            <a href="#">Ver projeto</a>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Entre em contato</h2>
+
+        <div class="foto-contato">
+           <div class="gradiente"></div>
+        </div>
+
+        <form action="#" method="post">
+            <div class="form">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="digite seu nome" required>
+            </div>
+            
+            <div class="form">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="digite seu E-mail" required>
+            </div>
+            
+            <div class="form">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" placeholder="digite sua mensagem aqui!" required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social">
+            <h3>Redes sociais</h3>
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+</html>
